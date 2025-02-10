@@ -214,7 +214,7 @@ output "anomaly_id" {
 }
 ```
 
-## Cost Explorer Module
+## Create a Cost Explorer Module
 
 ### modules/cost_explorer/main.tf
 ```hcl
@@ -238,7 +238,7 @@ output "cost_explorer_id" {
 }
 ```
 
-## Environment-Specific Configuration
+## Create Environment-Specific Configurations
 
 #### Each environment (dev, stage, prod) contains:
 - backend.tf: Backend state configuration
@@ -262,7 +262,7 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
-```hcl
+```
 
 ### environments/dev/versions.tf
 ```hcl
