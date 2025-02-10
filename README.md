@@ -2,15 +2,15 @@
 
 ## Introduction
 
-As organizations scale their cloud operations, managing cloud costs effectively becomes critical. FinOps (Financial Operations) provides a framework to optimize cloud spending while maintaining agility and performance. This project automates FinOps infrastructure for T2S Services using Terraform, ensuring consistency across development (dev), staging (stage), and production (prod) environments.
+As organizations scale their cloud operations, managing cloud costs effectively becomes critical. **FinOps (Financial Operations)** provides a framework to optimize cloud spending while maintaining agility and performance. This project automates **FinOps infrastructure** for **T2S Services** using **Terraform**, ensuring consistency across **development (dev), staging (stage), and production (prod) environments**.
 
 This infrastructure will:
-	•	Track and optimize AWS costs using AWS Budgets, Cost Anomaly Detection, and Cost Explorer.
-	•	Enable automated alerts for cost anomalies via Amazon SNS notifications.
-	•	Enforce best practices for cost governance using Infrastructure as Code (IaC) with Terraform.
-	•	Store state files securely in an S3 bucket with DynamoDB locking for team collaboration.
+- **Track and optimize AWS costs** using **AWS Budgets, Cost Anomaly Detection, and Cost Explorer**.
+- **Enable automated alerts** for cost anomalies via **Amazon SNS notifications**.
+- **Enforce best practices for cost governance** using **Infrastructure as Code (IaC)** with Terraform.
+- **Store state files securely** in an **S3 bucket** with **DynamoDB locking** for team collaboration.
 
-By implementing this modular Terraform setup, T2S Services ensures cost efficiency, scalability, and governance across all cloud environments.
+By implementing this **modular Terraform** setup, T2S Services ensures **cost efficiency, scalability, and governance** across all cloud environments.
 
 ---
 ## Project Structure
