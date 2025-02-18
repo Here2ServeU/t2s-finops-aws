@@ -1,8 +1,14 @@
-resource "aws_budgets_budget" "t2s_budget" {
-  name              = var.budget_name
+resource "aws_budgets_budget" "cost_alert" {
+  name              = "cost-alert"
   budget_type       = "COST"
   limit_amount      = var.budget_limit
   limit_unit        = "USD"
-  time_period_start = "2025-01-01_00:00"
-  time_period_end   = "2025-12-31_23:59"
+  time_unit         = "MONTHLY"
+
+  notification {
+    comparison_operator = "GREATER_THAN"
+    threshold           = 80  # Alert when 80% of budget is reached
+    notification_type   = "ACTUAL"
+    subscriber_email_addresses = [var.alert_email]
+  }
 }

@@ -1,3 +1,4 @@
+aws_region = "us-east-1"
 budget_name        = "T2S-Dev-Budget"
 budget_limit       = 1000
 anomaly_name       = "T2S-Dev-Cost-Anomaly"
@@ -9,3 +10,20 @@ environment        = "dev"
 bucket_name        = "t2s-terraform-state-prod"
 dynamodb_table_name = "t2s-state-lock"
 report_name   = "t2s-cost-report"
+email	= "info@transformed2succeed.com"
+s3_bucket_name = "t2s-finops-terraform-state"
+lock_table_name     = "terraform-lock-table"
+anomaly_monitor_type = "DIMENSIONAL"
+budget_name        = "t2s-monthly-budget"
+budget_limit       = "5000"
+anomaly_monitor_name = "cost-anomaly-monitor"
+anomaly_subscription_name = "T2S-Cost"
+
+budget_threshold         = 5000
+time_unit               = "MONTHLY"
+budget_type             = "COST"
+cost_filter             = { "Service" = "Amazon EC2" }
+anomaly_monitor_name    = "T2S-Anomaly-Monitor"
+anomaly_subscription_name = "T2S-Anomaly-Subscription"
+s3_region               = "us-east-1"
+s3_bucket               = "t2s-cost-explorer-reports"
