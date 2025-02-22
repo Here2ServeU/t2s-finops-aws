@@ -19,3 +19,9 @@ module "s3" {
   source      = "../../modules/s3"
   bucket_name = "t2s-finops-dev-reports"
 }
+
+module "lambda_auto_optimizer" {
+  source       = "../../modules/lambda_auto_optimizer"
+  aws_region   = var.aws_region
+  sns_topic_arn = var.sns_topic_arn
+}
