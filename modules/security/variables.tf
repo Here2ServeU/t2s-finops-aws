@@ -1,0 +1,1 @@
+variable "enable_guardduty" { default = true }
