@@ -37,3 +37,8 @@ finops-infra/
 ├── backend.tf
 ├── provider.tf
 └── versions.tf
+
+---
+
+## Step One: Set Up Backend Remote
+- cd 
