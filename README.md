@@ -51,9 +51,15 @@ Before deploying, ensure you have:
 
 ---
 
-### Part 1: Introduction to FinOps & Terraform Project Setup
+### I Show You How To Do It in the Videos Below: 
+#### Part 1: Introduction to FinOps & Terraform Project Setup
 
-[![Watch the Video](https://img.youtube.com/vi/4HqoyhZWYp0/0.jpg)](https://youtu.be/4HqoyhZWYp0?si=tHogCDbtLA4OAQWV)
+<p align="center">
+  <a href="https://youtu.be/4HqoyhZWYp0?si=tHogCDbtLA4OAQWV" target="_blank">
+    <img src="https://img.youtube.com/vi/4HqoyhZWYp0/0.jpg" alt="Watch the Video" width="600">
+  </a>
+</p>
+
 
 ---
 ## Step 1: Backend (State Management)
