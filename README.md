@@ -40,6 +40,7 @@ T2S-FINOPS-AWS/
 └── README.md
 ```
 
+---
 ## Prerequisites
 
 Before deploying, ensure you have:
@@ -221,9 +222,7 @@ terraform apply -var-file="terraform.tfvars" -auto-approve
 ---
 
 ### **🚀 Why This README is Effective**
-✅ **Step-by-step deployment guide**  
-✅ **Common errors & solutions for troubleshooting**  
-✅ **Scalable Terraform structure for multi-environment deployment**  
-✅ **Clearly documents purpose & resources used**  
-
-Would you like me to **add diagrams or sample output screenshots**?
+- **Step-by-step deployment guide**  
+- **Common errors & solutions for troubleshooting**  
+- **Scalable Terraform structure for multi-environment deployment**  
+- **Clearly documents purpose & resources used**  
