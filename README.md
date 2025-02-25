@@ -51,8 +51,8 @@ Before deploying, ensure you have:
 
 ---
 
-### I Show You How To Do It in the Videos Below: 
-#### Part 1: Introduction to FinOps & Terraform Project Setup
+**Watch the videos below to see how to do it:**
+### Part 1: Introduction to FinOps & Terraform Project Setup
 
 <p align="center">
   <a href="https://youtu.be/4HqoyhZWYp0?si=tHogCDbtLA4OAQWV" target="_blank">
