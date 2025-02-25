@@ -51,11 +51,11 @@ Before deploying, ensure you have:
 
 ---
 
-**Watch the videos below to see how to do it:**
+**Watch the entire playlist with videos to show you how to do it**
 ### Part 1: Introduction to FinOps & Terraform Project Setup
 
 <p align="center">
-  <a href="https://youtu.be/4HqoyhZWYp0?si=tHogCDbtLA4OAQWV" target="_blank">
+  <a href="https://youtu.be/4HqoyhZWYp0?si=IVLs7rlfB86nktqG" target="_blank">
     <img src="https://img.youtube.com/vi/4HqoyhZWYp0/0.jpg" alt="Watch the Video" width="600">
   </a>
 </p>
