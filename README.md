@@ -49,6 +49,13 @@ Before deploying, ensure you have:
 - S3 bucket & DynamoDB table for Terraform state management
 - An AWS SNS Topic for cost anomaly alerts
 
+---
+
+### Part 1: Introduction to FinOps & Terraform Project Setup
+
+[![Watch the Video](https://img.youtube.com/vi/4HqoyhZWYp0/0.jpg)](https://youtu.be/4HqoyhZWYp0?si=tHogCDbtLA4OAQWV)
+
+---
 ## Step 1: Backend (State Management)
 
 - Go to /modules/backend/ directory. 
