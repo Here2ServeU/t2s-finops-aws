@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "budgets:CreateBudget",
+                "budgets:ModifyBudget",
+                "budgets:DescribeBudget",
+                "budgets:DeleteBudget",
+                "budgets:ViewBudget",
+                "budgets:ListTagsForResource" 
+            ],
+            "Resource": "arn:aws:budgets::730335276920:budget/*"
+        }
+    ]
+}

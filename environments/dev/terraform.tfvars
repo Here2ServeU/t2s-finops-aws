@@ -5,3 +5,4 @@ backend_bucket = "t2s-finops-terraform-state"
 backend_key = "state/finops.tfstate"
 backend_encrypt = true
 backend_dynamodb_table = "t2s-terraform-lock"
+
