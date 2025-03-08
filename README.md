@@ -234,7 +234,7 @@ terraform apply -var-file="terraform.tfvars" -auto-approve
 
 ---
 
-### **🚀 Why This README is Effective**
+### **Why This README is Effective**
 - **Step-by-step deployment guide**  
 - **Common errors & solutions for troubleshooting**  
 - **Scalable Terraform structure for multi-environment deployment**  
